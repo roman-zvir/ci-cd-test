@@ -12,10 +12,8 @@ jobs:
 
   Explore-GitHub-Actions:
 
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
-    steps:
 
-      - run: echo "The job was automatically triggered by a ${{ secrets.MY_SECRET_NAME }} event."
 
 
